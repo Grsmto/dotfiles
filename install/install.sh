@@ -1,0 +1,18 @@
+# Install brew with packages & casks, composer and yarn global packages
+. "$DOTFILES_DIR/install/brew.sh"
+
+# Bunch of symlinks
+. "$DOTFILES_DIR/install/symlinks.sh"
+
+# Setup macos defaults and add apps to dock
+. "$DOTFILES_DIR/macos/defaults.sh"
+. "$DOTFILES_DIR/macos/dock.sh"
+
+# Clear cache
+. "$DOTFILES_DIR/bin/dotfiles" clean
+
+# Replace default hosts file
+. "$DOTFILES_DIR/install/hosts.sh"
+
+# Add keys from keychain to ssh agent
+ssh-add -A 2>/dev/null;

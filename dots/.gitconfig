@@ -1,0 +1,9 @@
+[user]
+	name = Adrien Denat
+	email = adrien.denat@gmail.com
+
+[github]
+  user = grsmto
+
+[core]
+  excludesfile = ~/.gitignore_global

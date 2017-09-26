@@ -4,3 +4,6 @@ Package Control.ca-bundle
 Package Control.system-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
+SublimeLinter
+oscrypto-ca-bundle.crt
+Package Control.merged-ca-bundle

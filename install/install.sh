@@ -1,3 +1,6 @@
+export DOTFILES_DIR EXTRA_DIR
+DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
+
 # Install brew with packages & casks, composer and yarn global packages
 . "$DOTFILES_DIR/install/brew.sh"
 

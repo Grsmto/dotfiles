@@ -1,4 +1,4 @@
-COMPUTER_NAME="nipid"
+COMPUTER_NAME="grsmto"
 
 osascript -e 'tell application "System Preferences" to quit'
 

@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.enablePreview": false,
+    "editor.formatOnPaste": true,
+    "workbench.editor.showIcons": false,
+    "javascript.validate.enable": false,
+    "git.enabled": false,
+    "flow.useNPMPackagedFlow": true,
+    "explorer.autoReveal": false,
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "jest.autoEnable": false,
+    "workbench.colorTheme": "Dark+ (contrast)",
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}

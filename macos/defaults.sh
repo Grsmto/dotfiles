@@ -79,6 +79,9 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 # Set the icon size of Dock items to 35 pixels
 defaults write com.apple.dock tilesize -int 35
 
+# Set the dock autohide delay to 0
+defaults write com.apple.Dock autohide-delay -float 0
+
 # Disable smart quotes and dashes
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false

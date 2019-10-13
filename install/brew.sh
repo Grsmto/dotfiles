@@ -14,8 +14,7 @@ brew install htop
 brew install iftop
 brew install openssl
 brew install git
-brew install node
-brew install python3
+brew install python
 brew install wget
 brew install yarn
 brew install unrar

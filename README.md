@@ -7,7 +7,7 @@ Contains:
   5. Custom [/etc/hosts](https://github.com/mihaliak/dotfiles/blob/master/etc/hosts) file with blocked Ads, Trackers & 🔥 stuff on internet
   7. iTerm2 profile
   8. `ssh-manager` command to manage ssh config hosts and keys, including copy public keys to clipboard, transfer to server and more with autocomplete
-  9. Packages / CLI (brew, brew cask, dockutil, htop, iftop, openssl, git, node, python3, wget, yarn)
+  9. Packages / CLI (brew, brew cask, dockutil, htop, iftop, openssl, git, node, python, wget, yarn)
   10. Applications (google-chrome, slack, spotify, sublime-text, postman, iterm2, spectacle, appcleaner, ...)
 
 ## Install

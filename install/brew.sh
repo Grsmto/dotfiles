@@ -22,11 +22,6 @@ sleep 1
 # ...and then.
 echo "Success! Basic brew packages are installed."
 
-# Cask
-brew tap caskroom/cask
-brew install brew-cask
-brew tap caskroom/versions
-
 # Install cask packages
 
 brew cask install --appdir="/Applications" google-chrome

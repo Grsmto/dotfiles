@@ -37,6 +37,11 @@ brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" franz
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" keeweb
+brew cask install --appdir="/Applications" flux
+brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" toggl
+brew cask install --appdir="/Applications" sourcetree
+brew cask install --appdir="/Applications" diffmerge
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

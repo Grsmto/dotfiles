@@ -17,3 +17,5 @@
 	trustExitCode = true
 [commit]
 	template = /Users/adriendenat/.stCommitMsg
+[credential]
+	helper = osxkeychain

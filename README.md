@@ -20,10 +20,9 @@ On fresh installation of MacOS:
 Clone and install dotfiles:
 	
     git clone https://github.com/grsmto/dotfiles.git ~/dotfiles
-    cd ~/dotfiles/install
-    chmod +wx install.sh
+    chmod +wx ~/dotfiles/install/install.sh
     chmod -R +wx ~/dotfiles/bin
-    ./install.sh
+    ./~/dotfiles/install/install.sh
 
 ## Additional steps
 

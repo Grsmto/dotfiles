@@ -1,2 +1,5 @@
-export EDITOR=nano
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export EDITOR=code
 export PATH="$HOME/dotfiles/bin:/usr/local/sbin:$HOME/.config/yarn/global/node_modules/.bin:/usr/local/opt/php71/bin:$HOME/.composer/vendor/bin:/usr/local/bin:/opt/subversion/bin:/usr/local/opt/sqlite/bin:$PATH"

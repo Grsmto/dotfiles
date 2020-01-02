@@ -10,7 +10,6 @@
   "workbench.editor.showIcons": false,
   "javascript.validate.enable": false,
   "git.enabled": false,
-  "flow.useNPMPackagedFlow": true,
   "explorer.autoReveal": false,
   "editor.tabSize": 2,
   "window.zoomLevel": 0,

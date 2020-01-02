@@ -1,14 +1,16 @@
 # Dotfiles
+
 Dotfiles I use with MacOS.
 
 Contains:
-  1. [System defaults](https://github.com/mihaliak/dotfiles/blob/master/macos/defaults.sh) and [Dock icons setup](https://github.com/mihaliak/dotfiles/blob/master/macos/dock.sh) 
-  2. [Git config](https://github.com/mihaliak/dotfiles/blob/master/dots/.gitconfig), [Git global ignore](https://github.com/mihaliak/dotfiles/blob/master/dots/.gitignore_global)
-  5. Custom [/etc/hosts](https://github.com/mihaliak/dotfiles/blob/master/etc/hosts) file with blocked Ads, Trackers & 🔥 stuff on internet
-  7. iTerm2 profile
-  8. `ssh-manager` command to manage ssh config hosts and keys, including copy public keys to clipboard, transfer to server and more with autocomplete
-  9. Packages / CLI (brew, brew cask, dockutil, htop, iftop, openssl, git, node, python, wget, yarn)
-  10. Applications (google-chrome, slack, spotify, sublime-text, postman, iterm2, spectacle, appcleaner, ...)
+
+1. [System defaults](https://github.com/mihaliak/dotfiles/blob/master/macos/defaults.sh) and [Dock icons setup](https://github.com/mihaliak/dotfiles/blob/master/macos/dock.sh)
+2. [Git config](https://github.com/mihaliak/dotfiles/blob/master/dots/.gitconfig), [Git global ignore](https://github.com/mihaliak/dotfiles/blob/master/dots/.gitignore_global)
+3. Custom [/etc/hosts](https://github.com/mihaliak/dotfiles/blob/master/etc/hosts) file with blocked Ads, Trackers & 🔥 stuff on internet
+4. iTerm2 profile
+5. `ssh-manager` command to manage ssh config hosts and keys, including copy public keys to clipboard, transfer to server and more with autocomplete
+6. Packages / CLI (brew, brew cask, dockutil, htop, iftop, openssl, git, node, python, wget, yarn)
+7. Applications (google-chrome, slack, spotify, sublime-text, postman, iterm2, spectacle, appcleaner, ...)
 
 ## Install
 
@@ -18,17 +20,22 @@ On fresh installation of MacOS:
     xcode-select --install
 
 Clone and install dotfiles:
-	
-    git clone https://github.com/grsmto/dotfiles.git ~/dotfiles
-    chmod +wx ~/dotfiles/install/install.sh
-    chmod -R +wx ~/dotfiles/bin
-    ./~/dotfiles/install/install.sh
+git clone https://github.com/grsmto/dotfiles.git ~/dotfiles
+chmod +wx ~/dotfiles/install/install.sh
+chmod -R +wx ~/dotfiles/bin
+./~/dotfiles/install/install.sh
 
 ## Additional steps
+
+### Iterm
 
 1. In iterm `Preferences > General > Load preferences from a custom folder or URL` and set it to `~/dotfiles/iterm`
 2. `sudo reboot`
 3. Enjoy
+
+### VScode
+
+1. Copy settings from ./~/dotfiles/vscode/settings.json
 
 ## The `dotfiles` command
 

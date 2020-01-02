@@ -14,6 +14,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . "$DOTFILES_DIR/macos/defaults.sh"
 . "$DOTFILES_DIR/macos/dock.sh"
 
+# Vscode extensions
+. "$DOTFILES_DIR/vscode/extensions.sh"
+
 # Clear cache
 . "$DOTFILES_DIR/bin/dotfiles" clean
 

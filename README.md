@@ -72,3 +72,7 @@ chmod -R +wx ~/dotfiles/bin
 ## Credits
 
 All credits for the scripts and ideas from [mihaliak dotfiles](https://github.com/mihaliak/dotfiles). Thanks!
+
+## TODO
+
+- [] Add `/Sites` folder

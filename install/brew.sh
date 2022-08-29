@@ -51,6 +51,7 @@ brew install --appdir="/Applications" --cask raycast
 brew install --appdir="/Applications" --cask rectangle
 brew install --appdir="/Applications" --cask transmission
 brew install --appdir="/Applications" --cask vlc
+brew install --appdir="/Applications" --cask macs-fan-control
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

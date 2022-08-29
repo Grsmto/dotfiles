@@ -75,4 +75,4 @@ All credits for the scripts and ideas from [mihaliak dotfiles](https://github.co
 
 ## TODO
 
-- [] Add `/Sites` folder
+- [ ] Add `/Sites` folder

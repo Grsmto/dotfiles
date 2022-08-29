@@ -20,10 +20,12 @@ On fresh installation of MacOS:
     xcode-select --install
 
 Clone and install dotfiles:
+```
 git clone https://github.com/grsmto/dotfiles.git ~/dotfiles
 chmod +wx ~/dotfiles/install/install.sh
 chmod -R +wx ~/dotfiles/bin
-./~/dotfiles/install/install.sh
+~/dotfiles/install/install.sh
+```
 
 ## Additional steps
 

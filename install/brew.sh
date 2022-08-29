@@ -4,6 +4,8 @@
 brew update
 brew upgrade
 
+brew tap homebrew/cask-versions
+
 # Install packages
 brew install dockutil
 brew install htop
@@ -25,7 +27,7 @@ echo "Success! Basic brew packages are installed."
 # Install cask packages
 
 brew install --appdir="/Applications" --cask google-chrome
-brew install --appdir="/Applications" --cask firefox-developer-edition
+brew install --appdir="/Applications" --cask firefox
 brew install --appdir="/Applications" --cask brave-browser
 brew install --appdir="/Applications" --cask slack
 brew install --appdir="/Applications" --cask spotify

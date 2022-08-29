@@ -8,7 +8,7 @@
 # https://mths.be/macos
 #============================================================================
 
-source ${DOTFILES}/scripts/utils.sh
+source ${DOTFILES_DIR}/scripts/utils.sh
 
 info "Setting macOS preferences"
 
@@ -311,8 +311,8 @@ process_title "Dock & Dashboard"
 process "Enable highlight hover effect for the grid view of a stack (Dock)"
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
-process "Set the icon size of Dock items to 44 pixels"
-defaults write com.apple.dock tilesize -int 44
+process "Set the icon size of Dock items to 49 pixels"
+defaults write com.apple.dock tilesize -int 49
 
 # process "Minimize windows into their application’s icon"
 # defaults write com.apple.dock minimize-to-application -bool true

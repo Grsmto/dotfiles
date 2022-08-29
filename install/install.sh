@@ -1,17 +1,3 @@
-export DOTFILES_DIR EXTRA_DIR
-DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
-
-# Install brew with packages & casks, composer and yarn global packages
-. "$DOTFILES_DIR/install/brew.sh"
-
-# Install Oh my ZSH
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Install NVM (see nvm.sh)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-
-# Bunch of symlinks
-. "$DOTFILES_DIR/install/symlinks.sh"
 
 # Setup macos defaults and add apps to dock
 . "$DOTFILES_DIR/macos/defaults.sh"

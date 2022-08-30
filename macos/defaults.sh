@@ -124,12 +124,12 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 process "Use scroll gesture with the Ctrl (^) modifier key to zoom"
 defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
 
-process "Disable press-and-hold for keys in favor of key repeat"
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+# process "Disable press-and-hold for keys in favor of key repeat"
+# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-process "Set a blazingly fast keyboard repeat rate"
-defaults write NSGlobalDomain KeyRepeat -int 3
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+# process "Set a blazingly fast keyboard repeat rate"
+# defaults write NSGlobalDomain KeyRepeat -int 3
+# defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 process "Set language and text formats"
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with

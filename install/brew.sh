@@ -26,32 +26,34 @@ echo "Success! Basic brew packages are installed."
 
 # Install cask packages
 
-brew install --appdir="/Applications" --cask google-chrome
-brew install --appdir="/Applications" --cask firefox
-brew install --appdir="/Applications" --cask brave-browser
-brew install --appdir="/Applications" --cask slack
-brew install --appdir="/Applications" --cask spotify
-brew install --appdir="/Applications" --cask visual-studio-code
-brew install --appdir="/Applications" --cask postman
-brew install --appdir="/Applications" --cask insomnia
-brew install --appdir="/Applications" --cask appcleaner
-brew install --appdir="/Applications" --cask the-unarchiver
-brew install --appdir="/Applications" --cask iterm2
-brew install --appdir="/Applications" --cask ferdi
-brew install --appdir="/Applications" --cask dropbox
-brew install --appdir="/Applications" --cask keeweb
-brew install --appdir="/Applications" --cask flux
-brew install --appdir="/Applications" --cask imageoptim
-brew install --appdir="/Applications" --cask toggl
-brew install --appdir="/Applications" --cask sourcetree
-brew install --appdir="/Applications" --cask diffmerge
-brew install --appdir="/Applications" --cask figma
-brew install --appdir="/Applications" --cask handbrake
-brew install --appdir="/Applications" --cask raycast
-brew install --appdir="/Applications" --cask rectangle
-brew install --appdir="/Applications" --cask transmission
-brew install --appdir="/Applications" --cask vlc
-brew install --appdir="/Applications" --cask macs-fan-control
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask brave-browser
+brew install --cask slack
+brew install --cask spotify
+brew install --cask visual-studio-code
+brew install --cask postman
+brew install --cask insomnia
+brew install --cask appcleaner
+brew install --cask the-unarchiver
+brew install --cask iterm2
+brew install --cask ferdi
+brew install --cask dropbox
+brew install --cask keeweb
+brew install --cask flux
+brew install --cask imageoptim
+brew install --cask toggl
+brew install --cask sourcetree
+brew install --cask diffmerge
+brew install --cask figma
+brew install --cask handbrake
+brew install --cask raycast
+brew install --cask rectangle
+brew install --cask transmission
+brew install --cask vlc
+brew install --cask macs-fan-control
+brew install --cask windscribe
+brew install --cask monitorcontrol
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

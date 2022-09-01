@@ -17,6 +17,7 @@ brew install wget
 brew install yarn
 brew install wifi-password
 brew install mkcert
+brew install schappim/ocr/ocr
 
 # Wait a bit before moving on...
 sleep 1
@@ -54,6 +55,7 @@ brew install --cask vlc
 brew install --cask macs-fan-control
 brew install --cask windscribe
 brew install --cask monitorcontrol
+brew install --cask discord
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

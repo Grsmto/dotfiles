@@ -18,6 +18,7 @@ brew install yarn
 brew install wifi-password
 brew install mkcert
 brew install schappim/ocr/ocr
+brew install ghostscript
 
 # Wait a bit before moving on...
 sleep 1
@@ -43,7 +44,6 @@ brew install --cask dropbox
 brew install --cask keeweb
 brew install --cask flux
 brew install --cask imageoptim
-brew install --cask toggl
 brew install --cask sourcetree
 brew install --cask diffmerge
 brew install --cask figma
@@ -56,6 +56,10 @@ brew install --cask macs-fan-control
 brew install --cask windscribe
 brew install --cask monitorcontrol
 brew install --cask discord
+brew install --cask cyberduck
+brew install --cask docker
+brew install --cask toggl-track
+brew install --cask lulu
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

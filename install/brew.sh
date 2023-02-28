@@ -19,6 +19,13 @@ brew install wifi-password
 brew install mkcert
 brew install schappim/ocr/ocr
 brew install ghostscript
+brew install git-lfs
+brew install ffmpeg
+brew install watchman # Used for React-Native development
+brew install rbenv ruby-build # Used for React-Native development
+brew install --cask zulu11 # Used for React-Native development
+brew install libyaml # Dependency rbenv
+brew install gmp # Dependency rbenv
 brew install fnm # node version manager
 
 # Wait a bit before moving on...
@@ -61,6 +68,9 @@ brew install --cask cyberduck
 brew install --cask docker
 brew install --cask toggl-track
 brew install --cask lulu
+brew install --cask karabiner-elements
+brew install --cask beardedspice
+brew install --cask kap
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

@@ -19,6 +19,7 @@ brew install wifi-password
 brew install mkcert
 brew install schappim/ocr/ocr
 brew install ghostscript
+brew install fnm # node version manager
 
 # Wait a bit before moving on...
 sleep 1

@@ -39,6 +39,10 @@ chmod -R +wx ~/dotfiles/bin
 
 1. Copy settings from ./~/dotfiles/vscode/settings.json
 
+### Raspberry Pi
+
+1. Add SSH: `ssh-copy-id -i ~/.ssh/id_ed25519 osmc@192.168.X.XXX`
+
 ## The `dotfiles` command
 
     $ dotfiles

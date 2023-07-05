@@ -7,26 +7,27 @@ brew upgrade
 brew tap homebrew/cask-versions
 
 # Install packages
-brew install dockutil
+brew install dockutil # Used to manage the dock
 brew install htop
 brew install iftop
 brew install openssl
 brew install git
-brew install python
 brew install wget
 brew install yarn
 brew install wifi-password
-brew install mkcert
-brew install schappim/ocr/ocr
+brew install mkcert # Used for local https development
+brew install schappim/ocr/ocr # Used for OCR
 brew install ghostscript
-brew install git-lfs
-brew install ffmpeg
+brew install git-lfs # Used for large git files
+brew install ffmpeg # Used for video manipulation
 brew install watchman # Used for React-Native development
 brew install rbenv ruby-build # Used for React-Native development
 brew install --cask zulu11 # Used for React-Native development
 brew install libyaml # Dependency rbenv
 brew install gmp # Dependency rbenv
 brew install fnm # node version manager
+brew install pyenv # python version manager
+brew install readline sqlite3 xz zlib tcl-tk # Python dependencies
 
 # Wait a bit before moving on...
 sleep 1

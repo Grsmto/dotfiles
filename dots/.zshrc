@@ -97,6 +97,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
+# The next line updates PATH for Netlify's Git Credential Helper.
+test -f '/Users/adriendenat/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/adriendenat/Library/Preferences/netlify/helper/path.zsh.inc'
 
 # Load rbenv (ruby version manager)
 eval "$(rbenv init - zsh)"
@@ -104,3 +108,22 @@ eval "$(rbenv init - zsh)"
 # Load fnm (fast node version manager)
 eval "$(fnm env --use-on-cd)"
 
+# Load Pyenv (python version manager)
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+export ANDROID_HOME=~/Library/Android/sdk/
+export PATH=$PATH:~/android-sdks/platform-tools/
+export PATH=$PATH:~/android-sdks/tools/
+# added by travis gem
+[ ! -s /Users/adriendenat/.travis/travis.sh ] || source /Users/adriendenat/.travis/travis.sh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/adriendenat/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/adriendenat/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/adriendenat/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/adriendenat/google-cloud-sdk/completion.zsh.inc'; fi
+
+# pnpm
+export PNPM_HOME="/Users/adriendenat/Library/pnpm"

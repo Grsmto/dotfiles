@@ -7,7 +7,8 @@ brew upgrade
 brew tap homebrew/cask-versions
 
 # Install packages
-brew install dockutil # Used to manage the dock
+brew install --cask hpedrorodrigues/tools/dockutil # See https://github.com/kcrawford/dockutil/issues/127#issuecomment-1118733013
+# brew install dockutil # Used to manage the dock
 brew install htop
 brew install iftop
 brew install openssl

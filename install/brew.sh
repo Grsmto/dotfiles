@@ -15,6 +15,7 @@ brew install openssl
 brew install git
 brew install wget
 brew install yarn
+brew install ferdium
 brew install wifi-password
 brew install mkcert # Used for local https development
 brew install schappim/ocr/ocr # Used for OCR

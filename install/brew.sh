@@ -30,6 +30,7 @@ brew install gmp # Dependency rbenv
 brew install fnm # node version manager
 brew install pyenv # python version manager
 brew install readline sqlite3 xz zlib tcl-tk # Python dependencies
+brew install jq # Used for json manipulation
 
 # Wait a bit before moving on...
 sleep 1
@@ -74,6 +75,7 @@ brew install --cask lulu
 brew install --cask karabiner-elements
 brew install --cask beardedspice
 brew install --cask kap
+brew install --cask google-cloud-sdk
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

@@ -17,6 +17,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Vscode extensions
 . "$DOTFILES_DIR/vscode/extensions.sh"
+cp "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
 
 # Clear cache
 . "$DOTFILES_DIR/bin/dotfiles" clean

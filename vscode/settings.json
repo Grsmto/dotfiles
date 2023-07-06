@@ -1,22 +1,45 @@
-// Place your settings in this file to overwrite the default settings
 {
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": true,
+  "security.workspace.trust.untrustedFiles": "open",
   "editor.minimap.enabled": false,
-  "workbench.editor.labelFormat": "short",
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.editor.enablePreview": false,
-  "editor.formatOnPaste": true,
-  "workbench.editor.showIcons": false,
-  "javascript.validate.enable": false,
-  "git.enabled": false,
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.requireConfig": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+      "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+  "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "explorer.autoReveal": false,
-  "editor.tabSize": 2,
-  "window.zoomLevel": 0,
-  "breadcrumbs.enabled": true,
-  "jest.autoEnable": false,
-  "workbench.colorTheme": "Dark+ (contrast)",
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "catppuccin.colorOverrides": {
+      "all": {
+          "text": "#dee6ed"
+      },
+      "mocha": {
+          "base": "#0f0f16",
+          // "mantle": "#010101",
+          // "crust": "#020202",
+      }
+  },
+  "editor.inlineSuggest.enabled": true,
+  "redhat.telemetry.enabled": false,
+  "workbench.editor.labelFormat": "short",
   "explorer.confirmDragAndDrop": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true
+  "debug.confirmOnExit": "always",
 }

@@ -12,7 +12,7 @@ dockutil --no-restart --add "/Applications/Slack.app"
 dockutil --no-restart --add "/Applications/Spotify.app"
 dockutil --no-restart --add "/Applications/Calendar.app"
 
-dockutil --add ~/Applications --display folder
+dockutil --add /Applications --display folder
 dockutil --add ~/Downloads
 
 killall Dock

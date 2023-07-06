@@ -76,6 +76,7 @@ brew install --cask karabiner-elements
 brew install --cask beardedspice
 brew install --cask kap
 brew install --cask google-cloud-sdk
+brew install --cask zoom
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo

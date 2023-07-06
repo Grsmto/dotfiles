@@ -1,7 +1,6 @@
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
-code --install-extension Framer.framer-syntax
-code --install-extension k3a.theme-dark-plus-contrast
+code --install-extension catppuccin.catppuccin-vsc
 code --install-extension Orta.vscode-jest
 code --install-extension wix.glean

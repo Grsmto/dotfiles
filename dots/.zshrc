@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+alias wifi-password='/usr/local/bin/wifi-password'
 
 # The next line updates PATH for Netlify's Git Credential Helper.
 test -f '/Users/adriendenat/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/adriendenat/Library/Preferences/netlify/helper/path.zsh.inc'
@@ -118,6 +119,10 @@ export PATH=$PATH:~/android-sdks/platform-tools/
 export PATH=$PATH:~/android-sdks/tools/
 # added by travis gem
 [ ! -s /Users/adriendenat/.travis/travis.sh ] || source /Users/adriendenat/.travis/travis.sh
+
+# pnpm
+export PNPM_HOME="/Users/adriendenat/Library/pnpm"
+export PATH="/usr/local/opt/libpq/bin:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/adriendenat/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/adriendenat/google-cloud-sdk/path.zsh.inc'; fi

@@ -7,7 +7,7 @@ brew upgrade
 brew tap homebrew/cask-versions
 
 # Install packages
-brew install --cask hpedrorodrigues/tools/dockutil # See https://github.com/kcrawford/dockutil/issues/127#issuecomment-1118733013
+brew install dockutil
 # brew install dockutil # Used to manage the dock
 brew install htop
 brew install iftop
@@ -31,6 +31,7 @@ brew install fnm # node version manager
 brew install pyenv # python version manager
 brew install readline sqlite3 xz zlib tcl-tk # Python dependencies
 brew install jq # Used for json manipulation
+brew install pnpm
 
 # Wait a bit before moving on...
 sleep 1

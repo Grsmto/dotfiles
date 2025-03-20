@@ -7,18 +7,13 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew update
 brew upgrade
 
-brew tap homebrew/cask-versions
-
 # Install packages
 brew install dockutil
-# brew install dockutil # Used to manage the dock
 brew install htop
 brew install iftop
 brew install openssl
 brew install git
 brew install wget
-brew install yarn
-brew install ferdium
 brew install wifi-password
 brew install mkcert # Used for local https development
 brew install schappim/ocr/ocr # Used for OCR
@@ -55,7 +50,6 @@ brew install --cask insomnia
 brew install --cask appcleaner
 brew install --cask the-unarchiver
 brew install --cask iterm2
-brew install --cask ferdi
 brew install --cask dropbox
 brew install --cask keeweb
 brew install --cask flux
@@ -65,7 +59,6 @@ brew install --cask diffmerge
 brew install --cask figma
 brew install --cask handbrake
 brew install --cask raycast
-brew install --cask rectangle
 brew install --cask transmission
 brew install --cask vlc
 brew install --cask macs-fan-control

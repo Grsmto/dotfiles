@@ -30,6 +30,7 @@ brew install pyenv # python version manager
 brew install readline sqlite3 xz zlib tcl-tk # Python dependencies
 brew install jq # Used for json manipulation
 brew install pnpm
+brew install atuin
 
 # Wait a bit before moving on...
 sleep 1

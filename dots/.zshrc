@@ -109,6 +109,9 @@ eval "$(rbenv init - zsh)"
 # Load fnm (fast node version manager)
 eval "$(fnm env --use-on-cd)"
 
+# Load atuin
+eval "$(atuin init zsh)"
+
 # Load Pyenv (python version manager)
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"

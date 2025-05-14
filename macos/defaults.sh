@@ -128,8 +128,8 @@ defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
 # defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # process "Set a blazingly fast keyboard repeat rate"
-# defaults write NSGlobalDomain KeyRepeat -int 3
-# defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain KeyRepeat -int 3
+defaults write NSGlobalDomain InitialKeyRepeat -int 30
 
 process "Set language and text formats"
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
@@ -142,7 +142,6 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 # process "Set the timezone; see `sudo systemsetup -listtimezones` for other values"
 # sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
 
-process "Stop iTunes from responding to the keyboard media keys"
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2>/dev/null
 
 process "Show battery percentage in status bar"
